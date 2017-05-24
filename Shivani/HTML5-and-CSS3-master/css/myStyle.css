@@ -1,0 +1,208 @@
+/*-------------------------------------------
+THE APPAREL VINTAGE COMPANY CSS STYLE FILE
+-------------------------------------------*/
+
+/*-------------------------------------------
+            WEBSITE COLOUR SCHEME
+-------------------------------------------*/
+
+/*First colour: rgba(54, 91, 70, 1);
+Second colour: rgba(54, 91, 70, 0.9);
+Third colour: rgba(159, 12, 16, 1);
+Fourth colour: #444;
+font-family: 'Roboto', sans-serif;*/
+
+/*-------------------------------------------
+            THE GLOBAL STYLES
+-------------------------------------------*/
+
+body{
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    overflow-x: hidden;
+}
+
+.main{
+    
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 80%;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+/*img{
+    width: 100%;
+}*/
+
+/*-------------------------------------------
+            THE HOME STYLES
+-------------------------------------------*/
+
+.bgImage{
+    background-image: url("../HTML5/CaseStudy/images/vintageHome.jpg");
+    /*If you change the background-size to 100% value of the background image it will be responsive to the screen size*/
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+
+.actionB{
+    position: absolute;
+    top: 65vh;
+    left: 3vw;
+}
+
+.buttonD{
+    position: absolute;
+    top: 75vh;
+    left: 30vw;
+}
+
+.btnArrivals{
+    
+    background-color: rgba(54, 91, 71, 0.6);
+    padding: 15px 20px;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -o-border-radius:5px 5px 5px 5px;
+    -ms-border-radius:5px 5px 5px 5px;
+    cursor:pointer;
+    outline: none;
+    border: 2px solid rgba(54, 91, 71, 1);
+    
+}
+
+.btnArrivals:hover{
+    background-color: rgba(54, 91, 70, 0.4);
+    -webkit-transition: background-color 1000ms ease-in;
+    -moz-transition: background-color 1000ms ease-in;
+    -o-transition: background-color 1000ms ease-in;
+    -ms-transition: background-color 1000ms ease-in; 
+    transition: background-color 1000ms ease-in;
+}
+
+.scrollD{
+    background-color: rgba(54, 91, 71, 0.6);
+    padding: 15px 20px;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -o-border-radius:5px 5px 5px 5px;
+    -ms-border-radius:5px 5px 5px 5px;
+    cursor:pointer;
+    outline: none;
+    border: 2px solid rgba(54, 91, 71, 1);
+    
+}
+
+.scrollD:hover{
+    background-color: rgba(54, 91, 70, 0.4);
+}
+
+.navC{
+    width:100%;
+    height: auto;
+    background-color: rgba(54, 91, 70, 0.9);
+    position: fixed;
+    padding: 10px 0;
+}
+
+nav{
+    float: right;
+}
+
+nav li{
+    display:inline;
+    padding: 0 10px 0 0;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover{
+    color:rgba(255, 255, 255, 1);
+}
+
+.hand{
+    position: absolute;
+    top: 66vh;
+    left: 12vw;
+    color: rgba(54, 91, 70, 1);
+    
+}
+
+
+
+.viewCart{
+    background-color: rgba(45, 144, 84, 1);
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -o-border-radius:5px 5px 5px 5px;
+    -ms-border-radius:5px 5px 5px 5px;
+    padding: 7px 10px;
+    border: 2px solid rgba(54, 91, 71, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+article img.after:{
+    
+}
+
+.imgPosition{
+    display: inline;
+    
+}
+
+.featureProduct{
+    column-count: 3;
+    margin: auto;
+    width: 80%;
+}
+
+.figSize{
+    
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+}
