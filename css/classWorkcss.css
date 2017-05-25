@@ -1,0 +1,113 @@
+/*First colour: rgba(54, 91, 70, 1);
+Secondary colour: rgba(54, 91, 70, 0.9); - variations of opacity to the main colour
+Third colour: rgba(159, 12, 16, 1);
+Fourth colour: #444; for text and headings*/
+
+body {
+    
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.logo{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+
+.logo img{
+    position: absolute;
+    left: 2vw;
+    height: 10vh;
+}
+
+.textPosition{
+    display: inline;
+    position: absolute;
+    top: 3vh;
+    right: 5vw;
+}
+
+.bgImage{
+    position: realtive;
+    background-image: url(../img/vintageHome.jpg);
+    background-repeat: no-repeat;
+    background-position: -60px 0;
+    background-size: cover;
+    width: 100% !important;
+    height: 50vh;
+    background-attachment: fixed;  
+    margin-top: 0;
+    background-color:rgba(54, 91, 70, 0.9);
+    /*right: -10px !important;*/
+}
+
+.navSize {
+    height: 50vh;
+    background-color: rgba(54, 91, 70, 0.9);
+    position: absolute;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    
+    
+}
+
+.menuSet{
+    
+    list-style-type: none;
+}
+
+.mainNav{
+    border-bottom: 1px solid bisque;
+    position: relative;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-right: 8vw;
+    color: bisque;
+    display: block;
+}
+
+.mainNav a{
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.spanPos{
+    position: absolute;
+    display: inline-block;
+    right: 0vw;
+}
+
+.opacity1{
+    background-color: red;
+    display: inline-block;
+    opacity: 1;
+   /* position: absolute;
+    top: 0;
+    left: 24vw;*/
+    width:10px;
+}
+
+.textRight{
+    display: inline;
+    position: absolute;
+    color: bisque;
+    background-color: rgba(54, 91, 70, 0.7);
+    top:45vh;
+    right: 4.1vw;
+}
+
+.b{
+    white-space: nowrap;
+    position: absolute; //changed
+    margin-top:100px;
+    transform-origin: bottom; 
+    transform: rotate(-90deg);  
+}
+   
