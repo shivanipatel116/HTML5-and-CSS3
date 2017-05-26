@@ -1,0 +1,360 @@
+/*First colour: rgba(54, 91, 70, 1);
+Secondary colour: rgba(54, 91, 70, 0.9); - variations of opacity to the main colour
+Third colour: rgba(159, 12, 16, 1);
+Fourth colour: #444; for text and headings*/
+
+body {
+    
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container0{
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+
+.logo img{
+    position: absolute;
+    left: 2vw;
+    height: 10vh;
+}
+
+.textPosition{
+    display: inline;
+    position: absolute;
+    top: 3vh;
+    right: 5vw;
+}
+
+.bgImage{
+    position: realtive;
+    background-image: url(../img/vintageHome.jpg);
+    background-repeat: no-repeat;
+    background-position: -60px 0;
+    background-size: cover;
+    width: 100% !important;
+    height: 50vh;
+    background-attachment: fixed;  
+    margin-top: 0;
+    background-color:rgba(54, 91, 70, 0.9);
+    /*right: -10px !important;*/
+}
+
+.navSize {
+    height: 50vh;
+    background-color: rgba(54, 91, 70, 0.9);
+    position: absolute;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    
+    
+}
+
+.menuSet{
+    
+    list-style-type: none;
+}
+
+.mainNav{
+    border-bottom: 1px solid bisque;
+    position: relative;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-right: 8vw;
+    color: bisque;
+    display: block;
+}
+
+.mainNav a{
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.spanPos{
+    position: absolute;
+    display: inline-block;
+    right: 0vw;
+}
+
+/*.opacity1{
+    background-color: red;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 24vw;
+    width:10px;
+}*/
+
+.textRight{
+    display: inline;
+    position: absolute;
+    color: bisque;
+    background-color: rgba(54, 91, 70, 0.7);
+    top:45vh;
+    right: 4.1vw;
+}
+
+.container1{
+    width: 100%;
+}
+
+.productB{
+    
+    column-count: 3;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    /*display: inline;*/
+    column-gap: 3em;
+    
+}
+
+.header1{
+    position: absolute;
+    background-color: rgba(54, 91, 70, 1);
+    transform: rotate(-90deg);
+    color: bisque;
+    top: 15vh;
+    left: -10vw;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 30px;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.header1P{
+    
+    line-height: 30px;
+    padding-bottom: 10px;
+    
+    padding: 50px 0px 40px 30px;
+}
+
+.header2{
+    position: absolute;
+    background-color: rgba(54, 91, 70, 1);
+    transform: rotate(-90deg);
+    color: bisque;
+    top: 15vh;
+    left: 15vw;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 30px;
+    width: 20%;
+    text-align: center;
+}
+
+.header2P{
+    
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding: 45px 0px 10px 10px;
+}
+
+.header3{
+    
+    position: absolute;
+    background-color: rgba(54, 91, 70, 1);
+   
+    transform: rotate(-90deg);
+    color: bisque;
+    top: 15vh;
+    left: 47vw;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 30px;
+    width: 20%;
+    text-align: center;
+}
+
+.header3P{
+    
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding: 20px 70px 10px 20px;
+    text-align: right;
+}
+
+.header3P a{
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.header3P address{
+    padding-top: 5px;
+}
+
+.container2{
+    width: 100%;
+  
+}
+
+.textArea{
+    position: relative;
+    column-count: 3;
+    width: 100%;
+    height: 100% !important;
+    
+    top: 5vh;
+    /*color: bisque;*/
+    padding-bottom: 200px;
+    background-color: darkslategray;
+    /*column-gap: 10em;*/
+}
+
+.clm1{
+    position: absolute;
+    color: bisque;
+    padding: 20px 10px 10px 20px; 
+    width: 60%;
+    left: 6vw;
+    line-height: 20px;
+    /*top: 5vh;*/
+}
+
+.clm2{
+    
+    position: absolute;
+    background-color: aquamarine;
+    color: black;
+    transform: rotate(-90deg);
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    right: 25vw;
+    top: 10vh;
+    font-size: 1.5em;
+    
+}
+
+.clm3{
+    position: absolute;
+    right: 13vw;
+    top: 3vh;
+}
+
+.container2{
+    width: 100%;
+  
+}
+
+.siteMap{
+    position: relative;
+    column-count: 3;
+    width: 100%;
+    height: 100% !important;
+    background-color: darkcyan;
+    top:5vh;
+    color: bisque;
+    padding-bottom: 300px;
+
+}
+
+.siteMapP1{
+    position: absolute;
+    left: 6vw;
+    height:100%;
+    width: 20%;
+}
+
+.siteMapP1 h3{
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+}
+
+.siteMap2{
+    position: absolute;
+    left: 30vw;
+    /*height:100%;*/
+    top:5vh;
+    border-right: 3px solid black;
+    right: 45vw;
+}
+
+.siteMap1in{
+    position: absolute;
+    left: 2vw;
+    top: 6vh;
+    display: block;
+    border-right: 3px solid black;
+    padding: 30px 100px 50px 30px;
+}
+
+.spanA{
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+    padding-right: 7vw;
+    color: bisque;
+    width: 90%;
+    display: block;
+}
+
+.siteMap1in a{
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.siteMap3{
+    position: absolute;
+    left: 55vw;
+    height:100%;
+    top:5vh;
+}
+
+.spanB{
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-bottom: 1vh;
+   /* padding-top: 2vh;*/
+    /*padding-right: 5vw;*/
+    color: bisque;
+    width: 90%;
+    display: block;
+    
+}
+
+.siteMap2 a{
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.spanC{
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-bottom: 1vh;
+   /* padding-top: 2vh;*/
+    /*padding-right: 5vw;*/
+    color: bisque;
+    width: 90%;
+    display: block;
+}
+
+.siteMap3 a{
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.footer{
+    background-color: darkcyan;
+}
+

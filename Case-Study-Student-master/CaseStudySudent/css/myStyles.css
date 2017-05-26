@@ -80,6 +80,32 @@ a[href^="tel:"]:hover, a[href^="mailto:"]:hover {
     transition: all 0.5s ease;
 }
 
+
+/*------------------------------*/
+
+/*example of pseudo class*/
+/*
+input[type^="text"]{
+    border: 1px solid red;
+}
+
+a[href$=".com"]{
+    color:red;
+}
+
+nav li:nth-child(even){
+    background: red;
+}
+*/
+
+/*nav li:nth-last-child(1){
+    background: red;
+}*/
+
+/*---------------------------------*/
+
+
+
 /*-------------------------------------*/
 
 
@@ -162,6 +188,8 @@ nav li {
     display: inline;
     padding: 5px 10px 5px 10px;
     background-color: rgba(0, 0, 0, 0.5);
+    /*background:linear-gradient(blue,white);*/
+    /*background:radial-gradient(blue 10%, red 25%, white 65%);*/
     border-radius: 3px;
     text-transform: lowercase !important;
 }
@@ -441,6 +469,26 @@ nav li {
             SFEATURED PRODUCTS AND SALES STYLES
 ---------------------------------------------------------------------*/
 
+/*--------------------Just To Try----------------------*/
+
+/*.try{
+    
+    width:40%;
+    margin: auto;
+    height: 50px;
+    background-color: burlywood;
+}
+
+.try:before{
+    
+    content: "THIS IS THE TEST BEFORE";
+    font-size: 2em;
+    color: red;
+}*/
+
+/*----------------------Just To Try----------------------*/
+
+
 .featuredPText {
     
     text-align: center;
@@ -535,10 +583,10 @@ nav li {
 }
 
 figcaption:before {
+    content: "ADD TO CART";
     position: absolute;
     top: 0;
     right: 0;
-    content: "ADD TO CART";
     font-size: 0.9em;
     font-weight: bold;
     opacity: 0;
@@ -798,38 +846,36 @@ footer {
                  MOBILE DEVICES STYLES
 ---------------------------------------------------------------------*/
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
     
-    .bgImage div:not(:first-child):not(.actionB),.menu-items,.shoppingB{
+    .bgImage div:not(:first-child):not(.actionB), .menu-items, .shoppingB {
         
         display: none;
     }
     
-    .navBtn{
+    .navBtn {
         
         font-size: 2.5em;
         display: block;
-        width:12%;
+        width: 12%;
         margin: 0 2vw 0 75vw;
         padding: 0 10px !important;
-        text-align:center;
+        text-align: center;
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0.2);
-        
     }
     
-    .menu-items li{
+    .menu-items li {
         
         border-top: 3px solid rgba(0, 0, 0, 0.3);
-       
     }
     
-    .menu-item a{
-        padding: 15px 0 15px 20px;
+    .menu-items a {
         
+        padding: 15px 0 15px 20px;
     }
     
-    .navC, nav li a, nav li{
+    .navC, nav li a, nav li {
         
         color: white;
         opacity: 1;
@@ -877,7 +923,7 @@ footer {
     
     .holdingC{
         width: 100%;
-        font-size: 1.5em;
+        font-size: 1.2em;
         padding-left: 0;
         overflow: hidden;
     }
